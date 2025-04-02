@@ -10,8 +10,8 @@ public class Program6 {
 		if(str1.length()!=str2.length()) {
 			return false;
 		}
-		char[] ch1=str1.toCharArray();
-		char[] ch2=str2.toCharArray();
+		char[] ch1=str1.toLowerCase().toCharArray();
+		char[] ch2=str2.toLowerCase().toCharArray();
 		
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
@@ -19,6 +19,7 @@ public class Program6 {
 		return Arrays.equals(ch1, ch2);
 	}
 	public static void main(String[] args) {
-		System.out.println(isAnagaram("keep", "peek"));
+		System.out.println(isAnagaram("Keep", "peek"));
+		System.out.println(isAnagaram("SiLeNt CAT","LisTen AcT"));
 	}
 }

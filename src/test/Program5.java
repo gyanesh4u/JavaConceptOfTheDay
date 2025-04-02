@@ -1,7 +1,5 @@
 package test;
 
-import java.util.Arrays;
-
 //How To Check The Equality Of Two Arrays In Java?
 public class Program5 {
 
