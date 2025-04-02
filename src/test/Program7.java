@@ -9,7 +9,7 @@ public class Program7 {
 		while(num>0) {
 			int digit=num%10;
 			cube=cube+(digit*digit*digit);
-			num/=10;
+			num=num/10;
 		}
 		if(cube==originalNum) {
 			
